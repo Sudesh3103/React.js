@@ -1,6 +1,6 @@
-import a from './main.js'
-import {arr} from '/main.js'
+import naam from './main.js'
+import {arr2,skills} from './main.js'
 
 
-console.log(a);
-console.log(arr);
+console.log(naam);
+console.log(arr2,skills);
