@@ -1,5 +1,6 @@
 
 import {Bookmark} from 'lucide-react'
+// lucide-react is a package that provides React components for Lucide icons.
 
 const Card = () => {
   return (
