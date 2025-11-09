@@ -10,8 +10,8 @@ const App = () => {
 
   return (
    <div className='parent'>
-    {arr.map(function(){
-      return 'Sudesh';
+    {arr.map(function(elem){
+      return elem;
     })}
    </div>
   )
