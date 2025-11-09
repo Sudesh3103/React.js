@@ -11,7 +11,7 @@ const App = () => {
   return (
    <div className='parent'>
     {arr.map(function(elem){
-      return elem;
+      return elem*2;
     })}
    </div>
   )
