@@ -10,11 +10,9 @@ const App = () => {
 
   return (
    <div className='parent'>
-  
-    <User name={arr[0]}/>
-    <User name={arr[1]}/>
-    <User name={arr[2]}/>
-    <User name={arr[3]}/>
+    {arr.map(function(){
+      return 'Sudesh';
+    })}
    </div>
   )
 }
