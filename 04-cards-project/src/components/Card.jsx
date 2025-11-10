@@ -4,6 +4,7 @@ import {Bookmark} from 'lucide-react'
 
 const Card = () => {
   return (
+    <>
     <div className="parent">
       <div className='card'>
         <div>
@@ -37,6 +38,8 @@ const Card = () => {
         </div>
       </div>
     </div>
+    </>
+    
   )
 }
 
