@@ -107,13 +107,12 @@ const App = () => {
   }
 ];
 
-console.log(jobOpenings);
 
 
   return (
    <div className='parent'>
     {jobOpenings.map(function(elem){
-      return <Card />
+      return <Card logo={elem.brandLogo} company={elem.companyName} date={elem.datePosted} jobTitle={elem.post} tag1={elem.tag} tag2={elem.tag2} pay={elem.payPerHour} location={elem.location}/>
     })}
    </div>
   )

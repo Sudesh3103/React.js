@@ -2,25 +2,27 @@
 import {Bookmark} from 'lucide-react'
 // lucide-react is a package that provides React components for Lucide icons.
 
-const Card = () => {
+const Card = (props) => {
+
+  console.log(props.company);
   return (
     <>
     <div className="parent">
       <div className='card'>
         <div>
           <div className='top'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkkQhwA-14yQus_rij6VonTP5UT7IrorBkg&s" alt="" />
+            <img src={props.logo} alt="" />
             <button>Save  <Bookmark size={10} /> </button>
           </div>
         </div>
         
 
         <div className='center'> 
-          <h3>Amazon <span>5 days ago</span> </h3>
-          <h2>Senior Ui/Ux Designer</h2>
+          <h3>{props.company} <span>{props.date}</span> </h3>
+          <h2>{props.jobTitle}</h2>
           <div className='tag'>
-            <h4>Part Time</h4>
-            <h4>Full Time</h4>
+            <h4>{props.tag1}</h4>
+            <h4>{props.tag2}</h4>
           </div>
         </div>
 
@@ -29,8 +31,8 @@ const Card = () => {
         <div className='bottom'>
           
           <div>
-              <h3>$120/hr</h3>
-              <p>Pune, India</p>
+              <h3>{props.pay}</h3>
+              <p>{props.location}</p>
           </div>
           
             <button>Apply Now</button>
