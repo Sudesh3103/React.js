@@ -1,9 +1,9 @@
-import React from 'react'
+import '../styles/Button.css'
 
 const Button = () => {
   return (
     <div>
-      <button style={{color:'white',backgroundColor:'grey',padding:'10px',border:'none',borderRadius:'5px'}}>Click me</button>
+      <button className='btn'>Click me</button>
     </div>
   )
 }
