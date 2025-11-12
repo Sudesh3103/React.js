@@ -1,9 +1,12 @@
-import React from 'react'
+import Button from "./components/Button"
+import Header from "./components/Header"
 
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <h1 className='h1'>Hello (used external CSS)</h1>
+      <Button/>
+      <Header/>
     </div>
   )
 }
