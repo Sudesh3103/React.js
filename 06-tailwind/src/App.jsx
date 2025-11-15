@@ -9,7 +9,7 @@ const App = () => {
           <h2>Logo</h2>
         </div>
         <div>
-          <span>Home</span>
+          <span className='text-5xl'>Home</span>
         </div>
       </div>
     </div>
