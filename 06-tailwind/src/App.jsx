@@ -9,7 +9,10 @@ const App = () => {
           <h2>Logo</h2>
         </div>
         <div>
-          <span className='text-5xl'>Home</span>
+          <span className='text-1xl p-3'>Home</span>
+          <span className='text-1xl p-3'>About</span>
+          <span className='text-1xl p-3'>Projects</span>
+          <span className='text-1xl p-3'>Contact</span>
         </div>
       </div>
     </div>
