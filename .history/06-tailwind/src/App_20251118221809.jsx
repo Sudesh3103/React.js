@@ -8,7 +8,7 @@ const App = () => {
         <div>
           <h2>Logo</h2>
         </div>
-        <div className='mt-5xl'>
+        <div className=''>
           <span className='text-1xl p-3'>Home</span>
           <span className='text-1xl p-3'>About</span>
           <span className='text-1xl p-3'>Projects</span>
