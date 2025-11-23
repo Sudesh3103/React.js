@@ -3,8 +3,8 @@ import Navbar from './Navbar'
 
 const Section1 = () => {
   return (
-    <div className='h-screen w-full bg-white'>
-      <Navbar />
+    <div className='h-screen w-full bg-blue-900'>
+      <Navbar
     </div>
   )
 }
