@@ -11,6 +11,8 @@ const LeftContent = () => {
     <div className='text-6xl'>
         <i class="ri-arrow-right-up-line"></i>
     </div>
+
+    
       
     </div>
   )
