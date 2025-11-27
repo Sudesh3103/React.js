@@ -8,6 +8,8 @@ const RightContent = (props) => {
         return <RightCard img={elem.img} user={elem} />
       })}
         
+
+        
     </div>
   )
 }
