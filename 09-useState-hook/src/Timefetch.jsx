@@ -4,8 +4,8 @@ import { useState, useEffect } from'react'
 const Timefetch = () => {
 
     const [currentDateTime, setCurrentDateTime] = useState({
-        date : new Date().toLocaleString(),
-        time : new Date().toLocaleTimeString()
+        date : new Date().toLocaleString(),  // to fetch date
+        time : new Date().toLocaleTimeString() // to fetch time 
     })
 
     useEffect(() => {
