@@ -9,6 +9,7 @@ const Timefetch = () => {
     })
 
     useEffect(() => {
+
       const interval = setInterval (() => {
         const now = new Date();
         setCurrentDateTime({
@@ -20,8 +21,6 @@ const Timefetch = () => {
       return () => clearInterval(interval)
     }, [])
     
-
-
 
   return (
     <div>
