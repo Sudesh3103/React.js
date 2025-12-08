@@ -8,11 +8,16 @@ const App = () => {
 
   return (
     <div>
+
+      <Timefetch />
+
+      <hr /> 
+
+      <h2>Counter using React Hooks - useState</h2>
       <button onClick={() => setCount(count+1)}>+</button>
       <input type="text" placeholder={count}  />
       <button onClick={() => count>0 && setCount(count-1)}>-</button>
 
-      <Timefetch />
     </div>
   )
 }
