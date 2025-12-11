@@ -13,8 +13,8 @@ const Timefetch = () => {
       const interval = setInterval (() => {
         const now = new Date();
         setCurrentDateTime({
-            date : now.toLocaleDateString(),
-            time : now.toLocaleTimeString()
+            date : now.toLocaleDateString(), //Date
+            time : now.toLocaleTimeString()  //Time 
         })
       },1000)
     
