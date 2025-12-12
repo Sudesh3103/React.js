@@ -15,6 +15,7 @@ const Timefetch = () => {
         setCurrentDateTime({
             date : now.toLocaleDateString(), //Date
             time : now.toLocaleTimeString()  //Time 
+            
         })
       },1000)
     
