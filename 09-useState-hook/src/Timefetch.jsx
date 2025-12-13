@@ -9,7 +9,6 @@ const Timefetch = () => {
     })
 
     useEffect(() => {
-
       const interval = setInterval (() => {
         const now = new Date();
         setCurrentDateTime({
