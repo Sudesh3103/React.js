@@ -23,13 +23,17 @@ const Timefetch = () => {
     
 
   return (
-    <div>
+
+    <>
+
+      <div>
+        <h1>Welcome to Timefetch using UseState and useEffect</h1>
+        <h2>Date : {currentDateTime.date}</h2>
+        <h2>Time : {currentDateTime.time}</h2>
+      </div>
       
-      <h1>Welcome to Timefetch using UseState and useEffect</h1>
-      <h2>Date : {currentDateTime.date}</h2>
-      <h2>Time : {currentDateTime.time}</h2>
-      
-    </div>
+    </>
+   
   )
 }
 
