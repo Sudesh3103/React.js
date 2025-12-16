@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Timefetch from './Timefetch';
 import AdvanceUseState from './AdvanceUseState';
 import Destructuring from './Destructuring';
+import BatchUpdate from './BatchUpdate';
 
 const App = () => {
 
@@ -25,6 +26,9 @@ const App = () => {
       <hr />
 
       <Destructuring />
+      <hr />
+
+      <BatchUpdate />
     </div>
 
     </>
