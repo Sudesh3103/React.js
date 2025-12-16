@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Timefetch from './Timefetch';
+import AdvanceUseState from './AdvanceUseState';
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <>
     <div>
+      <AdvanceUseState />
       <Timefetch />
       <hr /> 
       <h2>Counter using React Hooks - useState</h2>
