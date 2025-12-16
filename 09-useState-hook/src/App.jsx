@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Timefetch from './Timefetch';
 import AdvanceUseState from './AdvanceUseState';
+import Destructuring from './Destructuring';
 
 const App = () => {
 
@@ -21,6 +22,9 @@ const App = () => {
       <input type="text" placeholder={count}  />
       <button onClick={() => count>0 && setCount(count-1)}>-</button>
       <button onClick={() => setCount(count+5)}>Jump by 5</button>
+      <hr />
+
+      <Destructuring />
     </div>
 
     </>
