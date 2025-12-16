@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 const AdvanceUseState = () => {
 
-    const [num, setnum] = useState(5)
+    const [num, setnum] = useState(5);
+    const [name, setname] = useState({user:"Sudesh", age:24});
 
     const btnClicked = () =>{
         console.log(num); // Async function
@@ -17,6 +18,9 @@ const AdvanceUseState = () => {
     <div>
       <h2>{num}</h2>
       <button onClick={btnClicked}>Click</button>
+
+      <h1>{name.user}, {name.age}</h1>
+      
     </div>
   )
 }

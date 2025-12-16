@@ -10,9 +10,12 @@ const App = () => {
   return (
     <>
     <div>
-      <AdvanceUseState />
+      <AdvanceUseState /> 
+      <hr />
+
       <Timefetch />
       <hr /> 
+
       <h2>Counter using React Hooks - useState</h2>
       <button onClick={() => setCount(count+1)}>+</button>
       <input type="text" placeholder={count}  />
