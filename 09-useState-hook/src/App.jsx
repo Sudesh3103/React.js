@@ -15,6 +15,7 @@ const App = () => {
       <button onClick={() => setCount(count+1)}>+</button>
       <input type="text" placeholder={count}  />
       <button onClick={() => count>0 && setCount(count-1)}>-</button>
+      <button onClick={() => setCount(count+5)}>Jump by 5</button>
     </div>
 
     </>
