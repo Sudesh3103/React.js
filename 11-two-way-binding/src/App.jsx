@@ -4,6 +4,7 @@ const App = () => {
   return (
     <div>
       <h1>Hello</h1>
+      <h2>It is a two way binding</h2>
     </div>
   )
 }
