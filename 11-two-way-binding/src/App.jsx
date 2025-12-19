@@ -3,8 +3,10 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
-      <h2>It is a two way binding</h2>
+      <input type="text" placeholder='enter your name' onChange={()=>{
+        console.log('writing...')
+      }} />
+      <button>Submit</button>
     </div>
   )
 }
