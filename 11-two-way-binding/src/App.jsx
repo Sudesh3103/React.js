@@ -18,6 +18,7 @@ const App = () => {
           submitHandler(e);
         }}
       >
+        
         <input
           type="text"
           placeholder="enter your name"
@@ -27,6 +28,7 @@ const App = () => {
           }}
         />
         <button>Submit</button>
+
       </form>
     </div>
   );
