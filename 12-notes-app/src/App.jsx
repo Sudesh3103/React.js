@@ -9,7 +9,6 @@ const App = () => {
            <input type="text" placeholder='Write Details' className='w-full h-32 px-5 py-2 border-2 rounded '/>
            <button className='bg-white w-full text-black px-5 py-2 rounded'>Add Notes</button>
         </div>
-
         <img src="" alt="" />
       </form>
     </div>
