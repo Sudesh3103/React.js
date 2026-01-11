@@ -7,7 +7,6 @@ const App = () => {
     console.log("form submitted");
   }
 
-
   return (
     <div className="h-screen bg-black text-white">
       <form onSubmit={submitHandler} className="flex justify-between items-start  p-10 ">
