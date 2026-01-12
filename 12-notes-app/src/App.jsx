@@ -10,7 +10,6 @@ const App = () => {
   return (
     <div className="h-screen bg-black text-white">
       <form onSubmit={(e) => submitHandler(e)} className="flex gap-4 flex-col justify-between items-start  p-10 ">
-
           <input
             type="text"
             placeholder="Enter notes heading"
