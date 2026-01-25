@@ -7,8 +7,8 @@ const App = () => {
   }
 
   return (
-    <div className="h-screen bg-black text-white">
-      <form onSubmit={(e) => submitHandler(e)} className="flex gap-4 flex-col justify-between items-start  p-10 ">
+    <div className="h-screen lg:flex bg-black text-white">
+      <form onSubmit={(e) => submitHandler(e)} className="flex  lg:w-1/2 gap-4 flex-col  items-start  p-10 ">
           <input
             type="text"
             placeholder="Enter notes heading"
@@ -23,6 +23,10 @@ const App = () => {
             Add Notes
           </button>
       </form>
+
+      <div className="flex bg-gray-900 lg:w-1/2 flex-wrap p-10">
+        <div className="h-32 w-32 rounded-2xl bg-white"></div>
+      </div>
     </div>
   );
 };
