@@ -24,8 +24,14 @@ const App = () => {
           </button>
       </form>
 
-      <div className="flex bg-gray-900 lg:w-1/2 flex-wrap p-10">
-        <div className="h-32 w-32 rounded-2xl bg-white"></div>
+      <div className=" bg-gray-900 lg:w-1/2  p-10">
+        <h1 className="text-xl font-bold">Your Notes</h1>
+        <div className="flex flex-wrap gap-5 mt-5 h-full overflow-auto">
+          <div className="h-50 w-40 rounded-2xl bg-white"></div>
+          <div className="h-50 w-40 rounded-2xl bg-white"></div>
+          <div className="h-50 w-40 rounded-2xl bg-white"></div>
+          
+        </div>
       </div>
     </div>
   );
