@@ -30,7 +30,6 @@ const App = () => {
           <div className="h-50 w-40 rounded-2xl bg-white"></div>
           <div className="h-50 w-40 rounded-2xl bg-white"></div>
           <div className="h-50 w-40 rounded-2xl bg-white"></div>
-          
         </div>
       </div>
     </div>
