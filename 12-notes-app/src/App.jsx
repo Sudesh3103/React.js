@@ -1,5 +1,4 @@
 import React from "react";
-
 const App = () => {
   const submitHandler =(e) =>{
     e.preventDefault();
@@ -23,6 +22,7 @@ const App = () => {
             Add Notes
           </button>
       </form>
+
       <div className=" bg-gray-900 border-l-2 lg:w-1/2  p-10">
         <h1 className="text-xl font-bold">Your Notes</h1>
         <div className="flex flex-wrap gap-5 mt-5 h-full overflow-auto">
@@ -31,6 +31,7 @@ const App = () => {
           <div className="h-50 w-40 rounded-2xl bg-white"></div>
         </div>
       </div>
+      
     </div>
   );
 };
