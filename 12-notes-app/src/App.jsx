@@ -7,7 +7,10 @@ const App = () => {
 
   return (
     <div className="h-screen lg:flex bg-black text-white">
+      
       <form onSubmit={(e) => submitHandler(e)} className="flex  lg:w-1/2 gap-4 flex-col  items-start  p-10 ">
+        <h3 className="text-3xl font-bold">Add Notes</h3>
+        
           <input
             type="text"
             placeholder="Enter notes heading"
