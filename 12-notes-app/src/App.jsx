@@ -1,9 +1,12 @@
 import React from "react";
+import { use } from "react";
 const App = () => {
   const submitHandler =(e) =>{
     e.preventDefault();
     console.log("form submitted");
   }
+
+  const [title, setTitle] = useState('');
 
   return (
     <div className="h-screen lg:flex bg-black text-white">
@@ -11,16 +14,21 @@ const App = () => {
       <form onSubmit={(e) => submitHandler(e)} className="flex  lg:w-1/2 gap-4 flex-col  items-start  p-10 ">
         <h3 className="text-3xl font-bold">Add Notes</h3>
 
+        {/* Input For Heading  */}
           <input
             type="text"
             placeholder="Enter notes heading"
             className="w-full px-5 py-2 border-2 rounded "
           />
+          
+
+          {/* Detailed input  */}
           <textarea
             type="text"
             placeholder="Write Details"
             className="w-full h-32 px-5 py-2 border-2 rounded "
           />
+
           <button className="bg-white w-full text-black px-5 py-2 rounded">
             Add Notes
           </button>
