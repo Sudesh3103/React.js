@@ -21,7 +21,6 @@ const App = () => {
             className="w-full px-5 py-2 border-2 rounded "
           />
           
-
           {/* Detailed input  */}
           <textarea
             type="text"
