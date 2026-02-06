@@ -1,12 +1,15 @@
-import React from "react";
-import { use } from "react";
+import { useState } from "react";
 const App = () => {
+  
+  const [title, setTitle] = useState('');
+
   const submitHandler =(e) =>{
     e.preventDefault();
-    console.log("form submitted");
+    console.log(title);
+
+    setTitle('');
   }
 
-  const [title, setTitle] = useState('');
 
   return (
     <div className="h-screen lg:flex bg-black text-white">
@@ -19,6 +22,10 @@ const App = () => {
             type="text"
             placeholder="Enter notes heading"
             className="w-full px-5 py-2 border-2 rounded "
+            value={title}
+            onChange={(e) =>{
+              setTitle(e.target.value);
+            }}
           />
           
           {/* Detailed input  */}
