@@ -2,12 +2,14 @@ import { useState } from "react";
 const App = () => {
   
   const [title, setTitle] = useState('');
+  const [details, setDetails] = useState('');
 
   const submitHandler =(e) =>{
     e.preventDefault();
-    console.log(title);
+    console.log(title, details);
 
     setTitle('');
+    setDetails('');
   }
 
 
@@ -33,6 +35,10 @@ const App = () => {
             type="text"
             placeholder="Write Details"
             className="w-full h-32 px-5 py-2 border-2 rounded "
+            value={details}
+            onChange={(e) =>{
+              setDetails(e.target.value);
+            }}
           />
 
           <button className="bg-white w-full text-black px-5 py-2 rounded">
