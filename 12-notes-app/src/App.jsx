@@ -20,7 +20,6 @@ const App = () => {
     setDetails('');
   }
 
-
   return (
     <div className="h-screen lg:flex bg-black text-white">
       
