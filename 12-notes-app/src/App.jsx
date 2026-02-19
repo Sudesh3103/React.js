@@ -5,6 +5,7 @@ const App = () => {
   const [details, setDetails] = useState('');
   const [task, setTask] = useState([]);
 
+  
   const submitHandler =(e) =>{
     e.preventDefault();
 
