@@ -4,7 +4,6 @@ const App = () => {
   const [title, setTitle] = useState('');
   const [details, setDetails] = useState('');
   const [task, setTask] = useState([]);
-
   
   const submitHandler =(e) =>{
     e.preventDefault();
