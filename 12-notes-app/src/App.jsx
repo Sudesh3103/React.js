@@ -51,6 +51,7 @@ const App = () => {
           </button>
       </form>
 
+
       <div className=" bg-gray-900 lg:border-l-2 lg:w-1/2  p-10">
         <h1 className="text-xl font-bold">Recent Notes</h1>
         <div className="flex flex-wrap items-startgap-5 mt-5 h-full overflow-auto">
